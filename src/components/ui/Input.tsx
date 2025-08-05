@@ -20,7 +20,7 @@ export const Input: React.FC<InputProps> = ({
   return (
     <div className={`relative flex-1 ${className}`}>
       {icon && (
-        <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+        <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-black">
           {icon}
         </div>
       )}

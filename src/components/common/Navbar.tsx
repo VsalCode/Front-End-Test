@@ -1,6 +1,7 @@
 import React from 'react';
-import { Menu } from 'lucide-react';
+// import { Menu } from 'lucide-react';
 import { Button } from '../ui/Button';
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
 
 export const Navbar: React.FC = () => {
   return (
@@ -17,8 +18,8 @@ export const Navbar: React.FC = () => {
         <Button variant="primary">
           Get Started
         </Button>
-        <button className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors">
-          <Menu className="h-6 w-6" />
+        <button className=" rounded-lg transition-colors">
+          <HiOutlineMenuAlt4 className="sm:text-3xl text-xl" />
         </button>
       </div>
     </header>

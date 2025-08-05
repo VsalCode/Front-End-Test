@@ -33,7 +33,7 @@ export const PlanCard: React.FC<PlanCardProps> = ({
       <p className="text-sm mb-8 opacity-90">{description}</p>
       <div className="text-sm mb-2">{period}</div>
       <div className="text-4xl font-bold mb-4">{rate}</div>
-      <button className={`absolute bottom-6 right-6 w-10 h-10 ${buttonBg} ${buttonHover} rounded-full flex items-center justify-center transition-colors`}>
+      <button className={`absolute bottom-6 right-6 w-10 h-10 ${buttonBg} ${buttonHover} rounded-xl flex items-center justify-center transition-colors`}>
         <ArrowRight className={`h-4 w-4 ${buttonText}`} />
       </button>
     </div>

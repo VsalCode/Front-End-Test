@@ -53,7 +53,7 @@ export const Button: React.FC<ButtonProps> = ({
     <button
       type={type}
       onClick={onClick}
-      className={`${baseClasses} ${variantClasses} ${sizeClasses} ${className}`}
+      className={`cursor-pointer ${baseClasses} ${variantClasses} ${sizeClasses} ${className}`}
     >
       {children}
     </button>
