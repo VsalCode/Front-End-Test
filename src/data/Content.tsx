@@ -1,0 +1,38 @@
+export const planData = [
+  {
+    type: 'STRATEGY',
+    title: 'Money Momentum',
+    description: 'Tract Premium helps you start saver investments insights covering.',
+    period: '3 yrs CAGR',
+    rate: '7.20%',
+    bgColor: 'bg-green-400',
+  },
+  {
+    type: 'PLANS',
+    title: 'Long-Term',
+    description: 'Create a vision. To get started, imagine your dream life.',
+    period: '25 yrs CAGR',
+    rate: '14.20%',
+    bgColor: 'bg-black',
+    textColor: 'text-white',
+    buttonBg: 'bg-white',
+    buttonText: 'text-black',
+    buttonHover: 'hover:bg-gray-100',
+  },
+  {
+    type: 'STRATEGY',
+    title: 'Focussed',
+    description: 'Be focused Life planning, however, can serve as a roadmap or guide.',
+    period: '1 yr returns',
+    rate: '11.20%',
+    bgColor: 'bg-purple-400',
+  },
+  {
+    type: 'PLANS',
+    title: 'Fixed Income',
+    description: 'Get multiple benefits. and lumpsum option & Guaranteed Returns',
+    period: '5 yrs CAGR',
+    rate: '8.20%',
+    bgColor: 'bg-yellow-300',
+  },
+];
